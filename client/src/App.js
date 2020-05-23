@@ -22,7 +22,6 @@ class App extends React.Component {
     try {
       // https://books-api-for-per-scholas.herokuapp.com/books
       const res = await axios.get(BASE_URL + 'books');
-      console.log(res.data);
       this.setState({ books: res.data })
     } catch(e) {
       console.error(e, e.message);

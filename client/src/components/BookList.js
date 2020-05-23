@@ -3,7 +3,6 @@ import Book from './Book';
 
 function BookList(props) {
   function nullCheck() {
-    console.log(props.books)
     if(props.books === null) {
       return (
         <div>
