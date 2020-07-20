@@ -34,6 +34,7 @@ class App extends React.Component {
         <header className="App-header">
           <BookList books={ this.state.books } />
           <h1> hello bookstore </h1> 
+          <h2> Second test shot - merging git branch other than master into forked repo</h2>
         </header>
       </div>
     );
