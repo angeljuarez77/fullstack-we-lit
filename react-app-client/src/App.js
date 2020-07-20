@@ -33,7 +33,8 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <BookList books={ this.state.books } />
-          <h1> hello bookstore </h1> 
+          <p>Another test</p>
+          <h3> testing this out and will handover change to forked repo</h3>
         </header>
       </div>
     );
